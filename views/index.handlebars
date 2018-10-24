@@ -1,0 +1,21 @@
+<section id="beacons_table">
+  {{#each beacon}}
+  <div>
+    <div>
+      <h2>Device #{{id}}</h2>
+    </div>
+    <div>
+      <table>
+        <tr>
+          <th>RSSI</th>
+          <td id="{{id}}/rssi">{{rssi}}</td>
+        </tr>
+        <tr>
+          <th>Address</th>
+          <td id="{{id}}/address">{{address}}</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  {{/each}}
+</section>

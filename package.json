@@ -1,0 +1,25 @@
+{
+  "name": "beacon_gate_controller",
+  "description": "beacon_gate_controller",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Łukasz Mitka",
+    "email": "luk.mitka@gmail.com"
+  },
+  "repository": "https://github.com/lukaszmitka/beacon_detector",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.13.4",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.7.0",
+    "sequelize": "^3.21.0",
+    "sqlite3": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}
